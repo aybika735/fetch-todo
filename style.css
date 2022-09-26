@@ -1,0 +1,51 @@
+body {
+    font-family: Helvetica, serif;
+    width: 600px;
+    margin: 10px auto;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+form input {
+    flex: 1;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+form button {
+    font-size: 18px;
+}
+
+.list__item {
+    display: flex;
+    font-size: 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid lightgray;
+    justify-content: space-between;
+}
+
+.list__text {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.list__item_checked {
+    background-color: oldlace;
+}
+.containerflex{
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+    height: 20px;
+    line-height: 20px;
+    
+}
